@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:minHeight="?android:attr/listPreferredItemHeight"
+             android:layout_marginTop="@dimen/activity_horizontal_margin"
+             android:layout_marginLeft="@dimen/activity_horizontal_margin"
+             android:layout_marginRight="@dimen/activity_horizontal_margin"
+             android:gravity="center_vertical"
+    >
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+      <ImageView
+          android:id="@+id/imageView"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+
+          />
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_alignParentBottom="true"
+          android:background="@color/grey_tr"
+          android:gravity="center_vertical|left"
+          >
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:padding="10dp"
+            android:ellipsize="marquee"
+            android:textColor="@android:color/white"
+            tools:text="Имя файла"
+            />
+      </LinearLayout>
+
+    </RelativeLayout>
+
+
+
+</FrameLayout>
